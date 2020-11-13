@@ -6,7 +6,7 @@
 
 <p align="center"> 📫 How to reach me: <strong>maikol.lourencon@gmail.com</strong></p>
 
-<h3 align="center"> My Social Netwoks 😁 </h3>
+<h3 align="center"> My Social Networks 😁 </h3>
 
 <p align="center">
 <a href="https://www.facebook.com/profile.php?id=100006959085132" target="_blank"><img align="center" src="https://github.com/MaikolSantos/image/blob/main/facebook.svg" alt="FaceBook: Maikol Lourençon dos Santos" width="20" heigth="20"/></a>
