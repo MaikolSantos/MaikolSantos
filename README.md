@@ -4,7 +4,7 @@
 
 <p align="center"> 🌱 I’m currently learning: <strong>HTML, CSS, JavaScript, Python and SQL</strong></p>
 
-<p align="center"> 🎯 My current goal: <strong>Front-end developer and UI/UX Designer</strong></p>🎯
+<p align="center"> 🎯 My current goal: <strong>Front-end developer and UI/UX Designer</strong></p>
 
 <p align="center"> 📫 How to reach me: <strong>maikol.lourencon@gmail.com</strong></p>
 
