@@ -2,7 +2,7 @@
 <br>
 <h1 align="center"> Hey, World! ✌🏾😎 </h1>
 
-<p align="center"> 🌱 I’m currently learning: <strong>HTML, CSS, JavaScript, Python and SQL</strong></p>
+<p align="center"> 🌱 I’m currently learning: <strong>HTML, CSS and JavaScript</strong></p>
 
 <p align="center"> 🎯 My current goal: <strong>Front-end developer</strong></p>
 
