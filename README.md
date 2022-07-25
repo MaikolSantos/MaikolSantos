@@ -2,9 +2,9 @@
 <br>
 <h1 align="center"> Hey, World! ✌🏾😎 </h1>
 
-<p align="center"> 🌱 I’m currently learning: <strong>HTML, CSS and JavaScript</strong></p>
+<p align="center"> 🌱 I’m currently learning: <strong>React, Next.js, TypeScript</strong></p>
 
-<p align="center"> 🎯 My current goal: <strong>Front-end developer</strong></p>
+<p align="center"> 🎯 My current goal: <strong>Full Stack developer</strong></p>
 
 <p align="center"> 📫 How to reach me: <strong>maikol.lourencon@gmail.com</strong></p>
 
