@@ -4,7 +4,7 @@
 
 <p align="center"> 🌱 I’m currently learning: <strong>React, Next.js, TypeScript</strong></p>
 
-<p align="center"> 🎯 My current goal: <strong>Full Stack developer</strong></p>
+<p align="center"> 🎯 My current goal: <strong>Full Stack Developer</strong></p>
 
 <p align="center"> 📫 How to reach me: <strong>maikol.lourencon@gmail.com</strong></p>
 
