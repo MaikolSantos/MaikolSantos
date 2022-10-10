@@ -12,7 +12,7 @@
 
 <p align="center">
 <a href="https://www.facebook.com/sants.maikol" target="_blank"><img align="center" src="https://github.com/MaikolSantos/image/blob/main/facebook.svg" alt="FaceBook: Maikol Lourençon dos Santos" width="20" heigth="20"/></a>
-<a href="https://www.linkedin.com/in/maikol-lourencon/" target="_blank"><img align="center" src="https://github.com/MaikolSantos/image/blob/main/linkedin.svg" alt="LinkedIn: Maikol Lourençon" width="20" heigth="20"/></a>
+<a style=":hover {transform: scale(2)}" href="https://www.linkedin.com/in/maikol-lourencon/" target="_blank"><img align="center" src="https://github.com/MaikolSantos/image/blob/main/linkedin.svg" alt="LinkedIn: Maikol Lourençon" width="20" heigth="20"/></a>
 <a href="https://www.instagram.com/maikol.sants/" target="_blank"><img align="center" src="https://github.com/MaikolSantos/image/blob/main/instagram.svg" alt="Instagram: Maikol Lourençon dos Santos" width="20" heigth="20"/></a>
 </p>
 
