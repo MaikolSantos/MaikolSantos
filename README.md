@@ -1,5 +1,4 @@
 <h1> Hey, World! ✌🏾😎 </h1>
-<br>
 
 <h2> 📑 About me </h2>
 
@@ -7,8 +6,6 @@
 * <p> 🎯 My current goal: <strong>Full Stack Developer</strong></p>
 * <p> 📫 How to reach me: <strong>maikol.lourencon@gmail.com</strong></p>
 * <p> 💙 I <strong>love</strong> helping people starting out in the web development world.</p>
-
-<br>
 
 <h2> 💪🏾 Hard Skills  </h2>
 
@@ -21,8 +18,6 @@
    <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg">
 </div>
-
-<br>
 
 <h2> 🌐 Social Networks </h2>
 
@@ -43,4 +38,4 @@
 <br>
 <br>
 <img align="left" width="30%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaikolSantos&layout=compact&langs_count=7&theme=github_dark"/>
-<img align="right" width="20%" src="https://github.com/MaikolSantos/image/blob/main/standard.gif?raw=true">
+<img align="right" width="30%" src="https://github.com/MaikolSantos/image/blob/main/standard.gif?raw=true">
