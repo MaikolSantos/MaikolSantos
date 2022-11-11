@@ -27,20 +27,20 @@
 <h2> 🌐 Social Networks </h2>
 
   <a href="https://www.linkedin.com/in/maikol-lourencon/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
   <a href="https://instagram.com/maikol.sants/" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
   <a href="https://www.facebook.com/sants.maikol/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+    <img src="https://img.shields.io/badge/-Facebook-%230077B5?style=for-the-badge&logo=facebook&logoColor=white">
   </a>
   <a href = "mailto:maikol.lourencon@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
 
 <br>
 <br>
 <br>
-<img align="left" width="30%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaikolSantos&layout=compact&langs_count=7&theme=github_dark"/>
-<img align="right" width="30%" src="https://github.com/MaikolSantos/image/blob/main/standard.gif?raw=true">
+<img align="left" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaikolSantos&layout=compact&langs_count=7&theme=github_dark"/>
+<img align="right" width="40%" src="https://github.com/MaikolSantos/image/blob/main/standard.gif?raw=true">
