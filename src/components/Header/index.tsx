@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const Header = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+import { Container } from "./styles";
+import { HeaderProps } from "./types";
 
-export default Header
+const Header = ({ children }: HeaderProps) => {
+  return <Container>
+    {children}
+  </Container>;
+};
+
+export default Header;
