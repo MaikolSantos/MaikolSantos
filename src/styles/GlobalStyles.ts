@@ -22,12 +22,18 @@ export const GlobaStyles = createGlobalStyle`
     --color-grey-400: #EDEDED;
 
     --color-white: #FFFFFF;
+
+    --weight-light: 300;
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
   }
 
   body {
     background-color: var(--color-black-200);
     color: var(--color-grey-200);
+    padding: 0 1rem;
   }
-
 
 `;

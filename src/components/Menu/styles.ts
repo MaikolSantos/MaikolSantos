@@ -7,10 +7,8 @@ export const Container = styled.nav`
   z-index: 1;
   width: 100%;
   max-width: 22.5rem;
-  height: 100vh;
-  background: var(--color-black-100);
-  box-shadow: -0.5625rem 0rem 1rem -0.375rem rgba(10, 106, 191, 0.57);
-
+  border-radius: 0.5rem;
+  background: var(--color-black-200);
   animation: menu 0.5s ease forwards;
 
   ul {
@@ -29,7 +27,7 @@ export const Container = styled.nav`
       cursor: pointer;
       transition: 0.3s ease;
       font-weight: 500;
-      font-size: 1.25rem;
+      font-size: 1rem;
 
       img {
         opacity: 0;

@@ -5,6 +5,7 @@ import ButtonMenu from "../../components/ButtonMenu";
 
 import { MenuContext } from "../../contexts/MenuContext";
 import Menu from "../../components/Menu";
+import Hero from "../components/Sections/Hero";
 
 const Home = () => {
   const { isOpen, changeMenu } = useContext(MenuContext);
@@ -15,6 +16,7 @@ const Home = () => {
         <ButtonMenu open={isOpen} onClick={changeMenu} />
         {isOpen && <Menu />}
       </Header>
+      <Hero />
     </div>
   );
 };
