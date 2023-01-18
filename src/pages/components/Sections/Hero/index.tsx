@@ -6,7 +6,7 @@ import { Container } from "./styles";
 const Hero = () => {
   return (
     <Container>
-      <p>Olá, Meu nome é</p>
+      <p>Olá, meu nome é</p>
       <h1>Maikol L. Santos</h1>
       <strong>Front-end Developer & UI/UX Designer Jr.</strong>
       <LinkStyled

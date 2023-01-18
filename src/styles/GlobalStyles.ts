@@ -36,4 +36,14 @@ export const GlobaStyles = createGlobalStyle`
     padding: 0 1rem;
   }
 
+  ::-webkit-scrollbar {
+    background-color: transparent;
+    height: 0.25rem;
+    width: 0.25rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  } 
+
 `;

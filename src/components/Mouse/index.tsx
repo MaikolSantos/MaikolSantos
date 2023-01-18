@@ -19,7 +19,7 @@ const Mouse = () => {
       />
       <Rolling
         d="M21 7.66675V32.7648"
-        stroke="#FFF"
+        stroke="#8FA2B2"
         strokeWidth="2"
         strokeMiterlimit="10"
         strokeLinecap="round"

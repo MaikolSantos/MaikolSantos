@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import { ContainerDefault } from '../../../../styles/Containers';
+import styled from "styled-components";
+import { ContainerDefault } from "../../../../styles/Containers";
 
 export const Container = styled(ContainerDefault)`
-position: relative;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,14 +15,12 @@ position: relative;
     font-weight: var(--weight-regular);
     font-size: 1rem;
     color: var(--color-grey-100);
-
   }
 
   h1 {
     font-weight: var(--weight-regular);
     font-size: 2rem;
     color: var(--color-brand-100);
-
   }
 
   strong {
@@ -33,5 +31,4 @@ position: relative;
   a {
     margin-top: 1rem;
   }
-  
-`
+`;
