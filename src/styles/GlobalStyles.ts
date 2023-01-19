@@ -17,6 +17,7 @@ export const GlobaStyles = createGlobalStyle`
 
     --color-black-100: #000000;
     --color-black-200: #050505;
+    --color-black-300: #080808;
 
     --color-grey-100: #8FA6B2;
     --color-grey-200: #C1CBD3;

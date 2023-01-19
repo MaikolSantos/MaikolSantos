@@ -1,11 +1,15 @@
 import styled from "styled-components";
+
 import { ContainerSections } from "../../../../styles/Containers";
 
 export const Container = styled(ContainerSections)`
-  height: 100vh;
-  position: relative;
-
-  svg + svg {
-    bottom: -1rem;
+  ul {
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 40rem;
+    gap: 30px;
   }
+
 `;

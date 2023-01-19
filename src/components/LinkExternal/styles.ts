@@ -1,4 +1,6 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+import { LinkExternalStyledProps } from "./types";
 
 export const Container = styled.a`
   display: flex;
@@ -23,4 +25,19 @@ export const Container = styled.a`
     filter: drop-shadow(0rem 0rem 0.75rem #197de5);
     color: var(--color-grey-400);
   }
+
+  ${({ variant }: LinkExternalStyledProps) => {
+    return variant === "card"
+      ? css`
+          height: 1.75rem;
+          padding: 0 1rem;
+          font-size: 0.75rem;
+          display: inline-flex;
+
+          :hover {
+            filter: drop-shadow(0rem 0rem 0.3125rem #197de5);
+          }
+        `
+      : "";
+  }}
 `;

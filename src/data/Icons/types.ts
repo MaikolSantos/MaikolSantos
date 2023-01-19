@@ -1,4 +1,4 @@
-export interface IconsProps {
+export interface iconsProps {
   icon: JSX.Element;
   name: string;
 }

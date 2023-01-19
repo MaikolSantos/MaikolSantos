@@ -20,7 +20,7 @@ const Menu = () => {
       to: "techs",
     },
     {
-      name: "Trabalhos",
+      name: "Portfólio",
       to: "works",
     },
     {
@@ -39,7 +39,7 @@ const Menu = () => {
                 to={to}
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={10}
                 duration={500}
                 onClick={changeMenu}
               >

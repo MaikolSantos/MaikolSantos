@@ -2,7 +2,8 @@ import Title from "../../../../components/Title";
 import Text from "../../../../components/Text";
 import { Container } from "./styles";
 import LinkExternal from "../../../../components/LinkExternal";
-import { Icons } from "../../../../data/Icons";
+import { icons } from "../../../../data/Icons";
+import Card from "../../../../components/Card";
 
 const Techs = () => {
   return (
@@ -10,7 +11,7 @@ const Techs = () => {
       <Title text="Tecnologias" />
       <Text text="Aqui você conhece as tecnologias que mais utilizo ou estudei recentemente" />
       <ul>
-        {Icons.map((item, index) => {
+        {icons.map((item, index) => {
           const { icon, name } = item;
 
           return (

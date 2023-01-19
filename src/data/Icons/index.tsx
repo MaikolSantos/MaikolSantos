@@ -12,9 +12,9 @@ import {
   FaFigma,
 } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
-import { IconsProps } from "./types";
+import { iconsProps } from "./types";
 
-export const Icons: IconsProps[] = [
+export const icons: iconsProps[] = [
   {
     icon: <FaHtml5 color="#C1CBD3" size={40} />,
     name: "HTML5",
