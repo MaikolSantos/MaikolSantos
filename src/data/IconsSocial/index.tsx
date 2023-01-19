@@ -32,6 +32,6 @@ export const iconsSocial: iconsProps[] = [
   },
   {
     icon: <FaWhatsapp color="#C1CBD3" size={40} />,
-    href: "hhttps://api.whatsapp.com/send?phone=5516981988786",
+    href: "https://api.whatsapp.com/send?phone=5516981988786",
   },
 ];
