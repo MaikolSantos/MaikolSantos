@@ -7,6 +7,8 @@ export const GlobaStyles = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     font-family: 'Quicksand', sans-serif;
+    line-height: 150%;
+    text-decoration: none;
   }
 
   :root {

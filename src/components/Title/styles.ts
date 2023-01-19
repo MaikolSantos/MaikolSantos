@@ -8,7 +8,7 @@ export const Container = styled.h2`
   text-align: center;
 
   ::after {
-    content: '';
+    content: "";
     display: block;
     background-color: var(--color-brand-100);
     height: 0.0625rem;

@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 import { Container } from "./styles";
 
-import planet from "../../assets/images/menu/planet.svg";
+import planet from "../../assets/images/menu/planet.png";
 import { MenuContext } from "../../contexts/MenuContext";
 
 const Menu = () => {

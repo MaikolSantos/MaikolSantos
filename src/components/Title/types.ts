@@ -1,3 +1,3 @@
 export interface TitleProps {
-  text: string
+  text: string;
 }

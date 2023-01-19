@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-import { Link } from "react-scroll";
-
-export const LinkStyled = styled(Link)`
+export const Container = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +14,7 @@ export const LinkStyled = styled(Link)`
   background-color: transparent;
   color: var(--color-brand-100);
   cursor: pointer;
-  transition: .3s ease;
+  transition: 0.3s ease;
 
   :hover {
     background: #06559b;
