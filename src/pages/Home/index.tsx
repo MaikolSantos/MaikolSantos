@@ -8,6 +8,8 @@ import Menu from "../../components/Menu";
 import Hero from "../components/Sections/Hero";
 import About from "../components/Sections/About";
 import Techs from "../components/Sections/Techs";
+import Atom from "../components/Sections/Atom";
+
 
 const Home = () => {
   const { isOpen, changeMenu } = useContext(MenuContext);
@@ -21,6 +23,7 @@ const Home = () => {
       <Hero />
       <About />
       <Techs />
+      <Atom />
     </div>
   );
 };

@@ -15,7 +15,7 @@ export const Container = styled(ContainerDefault)`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1.5rem 2.5rem;
+    gap: 1.5rem 2rem;
     width: 100%;
     max-width: 40rem;
 
