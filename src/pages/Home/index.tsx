@@ -10,6 +10,7 @@ import About from "../components/Sections/About";
 import Techs from "../components/Sections/Techs";
 import Atom from "../components/Sections/Atom";
 import Works from "../components/Sections/Works";
+import Contact from "../components/Sections/Contact";
 
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
       <Techs />
       <Atom />
       <Works />
+      <Contact />
     </main>
   );
 };
