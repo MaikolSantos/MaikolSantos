@@ -10,7 +10,7 @@ export const Container = styled(ContainerDefault)`
   padding: 3.75rem 0;
 
   > svg {
-    width: 100%;
+    width: 75%;
   }
 
   > a {

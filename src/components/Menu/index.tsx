@@ -17,7 +17,7 @@ const Menu = () => {
     },
     {
       name: "Tecnologias",
-      to: "tecs",
+      to: "techs",
     },
     {
       name: "Trabalhos",

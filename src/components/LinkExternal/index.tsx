@@ -4,7 +4,7 @@ import { LinkExternalProps } from "./types";
 
 const LinkExternal = ({ text, href, download }: LinkExternalProps) => {
   return (
-    <Container href={href} download={download}>
+    <Container target="_blank" rel="noreferrer" href={href} download={download}>
       {text}
     </Container>
   );
