@@ -3,7 +3,6 @@ import { ContainerSections } from "../../../../styles/Containers";
 
 export const Container = styled(ContainerSections)`
   ul {
-    margin: 2rem 0;
     display: flex;
     align-items: center;
     justify-content: center;

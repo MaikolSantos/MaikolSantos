@@ -1,7 +1,8 @@
-import { Container } from "./styles";
+import Logo from "../../../../components/Logo";
 
 import { iconsSocial } from "../../../../data/IconsSocial";
-import Logo from "../../../../components/Logo";
+
+import { Container } from "./styles";
 
 const Contact = () => {
   return (

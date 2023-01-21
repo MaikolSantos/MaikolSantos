@@ -1,5 +1,11 @@
-import React from "react";
-import { Container, LineAtom, LineAtomFour, LineAtomThree, LineAtomTwo, Shine } from "./styles";
+import {
+  Container,
+  LineAtom,
+  LineAtomFour,
+  LineAtomThree,
+  LineAtomTwo,
+  Shine,
+} from "./styles";
 
 const LogoAtom = () => {
   return (

@@ -1,11 +1,12 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 
 import { Link } from "react-scroll";
+
+import { MenuContext } from "../../contexts/MenuContext";
 
 import { Container } from "./styles";
 
 import planet from "../../assets/images/menu/planet.png";
-import { MenuContext } from "../../contexts/MenuContext";
 
 const Menu = () => {
   const { changeMenu } = useContext(MenuContext);

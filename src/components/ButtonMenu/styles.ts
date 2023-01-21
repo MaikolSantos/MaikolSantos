@@ -48,12 +48,12 @@ export const Container = styled.button`
       open &&
       css`
         ::before {
-          transform: translateY(4px) rotate(225deg);
+          transform: translateY(0.25rem) rotate(225deg);
         }
 
         ::after {
           width: 1.875rem;
-          transform: translateY(-6px) rotate(-225deg);
+          transform: translateY(-0.375rem) rotate(-225deg);
         }
       `
     );

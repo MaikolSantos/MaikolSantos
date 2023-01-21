@@ -1,7 +1,6 @@
-import React from "react";
+import { HeaderProps } from "./types";
 
 import { Container } from "./styles";
-import { HeaderProps } from "./types";
 
 const Header = ({ children }: HeaderProps) => {
   return <Container>{children}</Container>;

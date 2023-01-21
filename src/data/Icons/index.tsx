@@ -12,6 +12,7 @@ import {
   FaFigma,
 } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
+
 import { iconsProps } from "./types";
 
 export const icons: iconsProps[] = [

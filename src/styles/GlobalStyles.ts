@@ -36,7 +36,6 @@ export const GlobaStyles = createGlobalStyle`
   body {
     background-color: var(--color-black-200);
     color: var(--color-grey-200);
-    padding: 0 1rem;
   }
 
   ::-webkit-scrollbar {

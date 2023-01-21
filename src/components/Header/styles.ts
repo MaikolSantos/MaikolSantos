@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.header`
   display: flex;
@@ -11,5 +11,4 @@ export const Container = styled.header`
   z-index: 1;
   border-radius: 0.5rem;
   background-color: var(--color-black-200);
-  
-`
+`;

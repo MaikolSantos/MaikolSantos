@@ -9,7 +9,6 @@ export const Container = styled(ContainerSections)`
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 40rem;
-    gap: 30px;
+    gap: 1.875rem;
   }
-
 `;

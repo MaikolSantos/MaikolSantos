@@ -1,9 +1,11 @@
-import Title from "../../../../components/Title";
-import Text from "../../../../components/Text";
-import { Container } from "./styles";
-import { works } from "../../../../data/works";
 import Card from "../../../../components/Card";
+import Text from "../../../../components/Text";
+import Title from "../../../../components/Title";
 import LinkExternal from "../../../../components/LinkExternal";
+
+import { works } from "../../../../data/works";
+
+import { Container } from "./styles";
 import { LinkStyled } from "../../../../styles/LinkStyled";
 
 const Works = () => {

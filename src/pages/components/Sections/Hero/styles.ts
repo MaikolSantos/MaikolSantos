@@ -1,13 +1,9 @@
 import styled from "styled-components";
-import { ContainerDefault } from "../../../../styles/Containers";
 
-export const Container = styled(ContainerDefault)`
+import { ContainerSections } from "../../../../styles/Containers";
+
+export const Container = styled(ContainerSections)`
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
   text-align: center;
   height: 100vh;
 
@@ -24,8 +20,11 @@ export const Container = styled(ContainerDefault)`
   }
 
   strong {
+    display: flex;
+    align-items: flex-end;
     font-weight: var(--weight-light);
     font-size: 1.25rem;
+    line-height: 1;
   }
 
   a {

@@ -8,7 +8,7 @@ export const Container = styled.li`
   overflow: hidden;
   transition: 0.3s ease;
   width: 100%;
-  max-width: 300px;
+  max-width: 18.75rem;
 
   div {
     display: flex;
@@ -19,7 +19,7 @@ export const Container = styled.li`
     background-color: var(--color-black-300);
     position: relative;
     z-index: 1;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     transition: 0.3s ease;
 
     h3 {

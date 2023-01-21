@@ -1,8 +1,7 @@
-import React, { useContext, useState } from "react";
+import { useContext } from "react";
 
 import Header from "../../components/Header";
 import ButtonMenu from "../../components/ButtonMenu";
-
 import { MenuContext } from "../../contexts/MenuContext";
 import Menu from "../../components/Menu";
 import Hero from "../components/Sections/Hero";
@@ -12,7 +11,7 @@ import Atom from "../components/Sections/Atom";
 import Works from "../components/Sections/Works";
 import Contact from "../components/Sections/Contact";
 import Footer from "../../components/Footer";
-
+import Resume from "../components/Sections/Resume";
 
 const Home = () => {
   const { isOpen, changeMenu } = useContext(MenuContext);
@@ -25,6 +24,7 @@ const Home = () => {
       </Header>
       <Hero />
       <About />
+      <Resume />
       <Techs />
       <Atom />
       <Works />

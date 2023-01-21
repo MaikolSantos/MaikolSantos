@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import { ContainerSections } from '../../../../styles/Containers';
+import styled from "styled-components";
+
+import { ContainerSections } from "../../../../styles/Containers";
 
 export const Container = styled(ContainerSections)`
   > svg {
@@ -11,4 +12,4 @@ export const Container = styled(ContainerSections)`
   > a {
     margin-top: 1rem;
   }
-`
+`;

@@ -1,6 +1,6 @@
-import React from "react";
-import { Container } from "./styles";
 import { TextProps } from "./types";
+
+import { Container } from "./styles";
 
 const Title = ({ text }: TextProps) => {
   return <Container>{text}</Container>;

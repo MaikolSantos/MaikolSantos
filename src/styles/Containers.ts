@@ -11,6 +11,6 @@ export const ContainerSections = styled(ContainerDefault)`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
-  padding: 3.75rem 0;
+  gap: 2rem;
+  padding: 3.75rem 1rem;
 `;

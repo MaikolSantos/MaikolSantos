@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Chair, Planet, PlanetPink, PlanetPurple, Rock } from "./styles";
 
 const Setup = () => {

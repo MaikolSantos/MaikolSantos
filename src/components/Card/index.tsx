@@ -1,7 +1,8 @@
-import React from "react";
 import LinkExternal from "../LinkExternal";
-import { ButtonGroup, Container } from "./styles";
+
 import { CardProps } from "./types";
+
+import { ButtonGroup, Container } from "./styles";
 
 const Card = ({ title, description, repository, demo }: CardProps) => {
   return (

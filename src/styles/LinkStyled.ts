@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const LinkStyled = styled(Link)`
   font-size: 1rem;
@@ -7,12 +7,12 @@ export const LinkStyled = styled(Link)`
   font-weight: var(--weight-bold);
 
   ::after {
-      content: '';
-      height: 0.0625rem;
-      width: 100%;
-      background: transparent;
-      display: block;
-    }
+    content: "";
+    height: 0.0625rem;
+    width: 100%;
+    background: transparent;
+    display: block;
+  }
 
   :hover {
     ::after {
@@ -26,4 +26,4 @@ export const LinkStyled = styled(Link)`
       }
     }
   }
-`
+`;

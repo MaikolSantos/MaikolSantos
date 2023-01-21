@@ -18,7 +18,7 @@ export const PlanetPurple = styled(Planet)`
 `;
 
 export const PlanetPink = styled(Planet)`
-  animation-delay: .5s;
+  animation-delay: 0.5s;
 `;
 
 export const Chair = styled.g`
@@ -26,7 +26,7 @@ export const Chair = styled.g`
 
   @keyframes chair {
     from {
-      transform: translateY(-10px);
+      transform: translateY(-0.625rem);
     }
     to {
       transform: translateY(0);
