@@ -21,6 +21,8 @@ export const Container = styled.li`
     z-index: 1;
     padding: 1.5rem 1rem;
     transition: 0.3s ease;
+    width: 100%;
+    height: 100%;
 
     h3 {
       font-size: 1.125rem;

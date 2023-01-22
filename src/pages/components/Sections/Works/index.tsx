@@ -17,15 +17,17 @@ const Works = () => {
       <ul>
         {works.map((item, index) => {
           const { title, description, repository, demo } = item;
-          return (
-            <Card
-              key={index}
-              title={title}
-              description={description}
-              repository={repository}
-              demo={demo}
-            />
-          );
+          if (index <= 3) {
+            return (
+              <Card
+                key={index}
+                title={title}
+                description={description}
+                repository={repository}
+                demo={demo}
+              />
+            );
+          }
         })}
       </ul>
       <LinkStyled to="/works">Ver mais</LinkStyled>
