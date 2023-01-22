@@ -10,7 +10,7 @@ import {
 import universe from "../../../../assets/images/universe.jpg";
 
 const Resume = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   function changeOpen() {
     setIsOpen(!isOpen);
@@ -20,7 +20,7 @@ const Resume = () => {
     <Container>
       <ResumeHeader onClick={changeOpen}>
         <div>
-          <h2>Clique para ver o resumo do currículo</h2>
+          <h2>Resumo do currículo</h2>
         </div>
       </ResumeHeader>
 
@@ -43,19 +43,6 @@ const Resume = () => {
                     <h4>Técnico Administrativo</h4>
                     <p>ETEC | Concluído em 2013 </p>
                   </li>
-                </ul>
-              </div>
-              <div>
-                <h3>Cursos Mais Relevantes</h3>
-                <ul>
-                  <li>MySQL – 40hs</li>
-                  <li>Python – 80hs </li>
-                  <li>Java POO – 40hs</li>
-                  <li>Web Designer – 22hs</li>
-                  <li>Fundamentos de Lógica da Programação – 15hs</li>
-                  <li>Modelagem de Dados – 12hs</li>
-                  <li>CSS Grid Layout – 10hs</li>
-                  <li>CSS Flexbox – 6hs</li>
                 </ul>
               </div>
               <div>

@@ -9,9 +9,9 @@ import { LinkScrollStyled } from "../../../../styles/LinkScrollStyled";
 const Hero = () => {
   const [text] = useTypewriter({
     words: [
-      "Front-end Developer & UI/UX Designer",
-      "Back-end Developer & UI/UX Designer",
-      "Full Stack Developer & UI/UX Designer",
+      "Front-end Developer",
+      "Back-end Developer",
+      "Full Stack Developer",
     ],
     loop: true,
   });

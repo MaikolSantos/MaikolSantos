@@ -28,15 +28,7 @@ const Works = () => {
           );
         })}
       </ul>
-
       <LinkStyled to="/works">Ver mais</LinkStyled>
-
-      <Text text="Veja também meu Github" />
-      <LinkExternal
-        text="Github"
-        href="https://github.com/MaikolSantos"
-        download="curriculo.pdf"
-      />
     </Container>
   );
 };

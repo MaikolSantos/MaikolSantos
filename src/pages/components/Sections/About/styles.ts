@@ -7,6 +7,7 @@ export const Container = styled(ContainerSections)`
     width: 100%;
     max-width: 45rem;
     height: auto;
+    margin: 3rem 0;
   }
 
   > a {

@@ -2,7 +2,6 @@ import {
   FaGithub,
   FaLinkedinIn,
   FaInstagram,
-  FaFacebookF,
   FaYoutube,
   FaWhatsapp,
 } from "react-icons/fa";
@@ -21,10 +20,6 @@ export const iconsSocial: iconsProps[] = [
   {
     icon: <FaInstagram color="#C1CBD3" size={40} />,
     href: "https://www.instagram.com/maikol.sants/",
-  },
-  {
-    icon: <FaFacebookF color="#C1CBD3" size={40} />,
-    href: "https://www.facebook.com/sants.maikol/",
   },
   {
     icon: <FaYoutube color="#C1CBD3" size={40} />,

@@ -12,15 +12,10 @@ export const Container = styled(ContainerSections)`
     max-width: 40rem;
 
     li {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 0.25rem;
-      width: max-content;
       transition: 0.3s ease-in-out;
 
       svg {
+        width: 2.1875rem;
         transition: 0.3s ease-in-out;
       }
 
@@ -37,6 +32,6 @@ export const Container = styled(ContainerSections)`
 
   svg + a {
     color: var(--color-grey-300);
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 `;

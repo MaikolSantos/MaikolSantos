@@ -2,11 +2,7 @@ import { Container, Shine } from "./styles";
 
 const Logo = () => {
   return (
-    <Container
-      viewBox="0 0 314 314"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <Container viewBox="0 0 314 314" fill="none">
       <path
         d="M50.0789 223.402V90.5986C37.9934 109.842 31 132.605 31 157C31 181.395 37.9934 204.158 50.0789 223.402Z"
         stroke="#C1CDD3"

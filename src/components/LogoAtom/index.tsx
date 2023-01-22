@@ -9,13 +9,7 @@ import {
 
 const LogoAtom = () => {
   return (
-    <Container
-      width="785"
-      height="621"
-      viewBox="0 0 785 621"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <Container viewBox="0 0 785 621" fill="none">
       <g clipPath="url(#clip0_3_3734)">
         <LineAtomThree
           d="M726.232 210.205C905.231 -0.5679 596.527 -53.7074 171.865 283.7"
