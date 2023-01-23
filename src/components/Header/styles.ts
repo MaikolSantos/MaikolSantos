@@ -11,4 +11,13 @@ export const Container = styled.header`
   z-index: 9;
   border-radius: 0.5rem;
   background-color: var(--color-black-200);
+
+  > svg {
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    :hover {
+      fill: var(--color-brand-100);
+    }
+  }
 `;

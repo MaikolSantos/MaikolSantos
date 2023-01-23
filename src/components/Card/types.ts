@@ -3,4 +3,9 @@ export interface CardProps {
   description: string;
   repository: string;
   demo: string;
+  variant?: string;
+}
+
+export interface CardStyledProps {
+  variant?: string;
 }

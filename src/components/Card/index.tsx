@@ -4,12 +4,12 @@ import { CardProps } from "./types";
 
 import { ButtonGroup, Container } from "./styles";
 
-const Card = ({ title, description, repository, demo }: CardProps) => {
+const Card = ({ title, description, repository, demo, variant }: CardProps) => {
   return (
-    <Container>
+    <Container variant={variant}>
       <div>
         <h3>{title}</h3>
-        <p title={description}>{description}</p>
+        <p title={variant && description}>{description}</p>
         <ButtonGroup>
           <LinkExternal href={repository} variant="card" text="Repo" />
           <LinkExternal href={demo} variant="card" text="Demo" />

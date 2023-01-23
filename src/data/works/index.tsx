@@ -13,7 +13,7 @@ export const works: worksProps[] = [
     description:
       "Projeto desenvolvido para prática de typescript, react e bibliotecas react",
     repository: "https://github.com/MaikolSantos/hamburgueria-v2",
-    demo: "https://vercel.com/maikolsantos/hamburgueria-v2",
+    demo: "https://hamburgueria-v2-rho.vercel.app/",
   },
   {
     title: "Kenzie Hub",
@@ -61,15 +61,15 @@ export const works: worksProps[] = [
     demo: "https://maikolsantos.github.io/origamid-bikcraft/",
   },
   {
-    title: "FlexBlog",
-    description: "Site desenvolvido no curso Flex Box da Origamid",
-    repository: "https://github.com/MaikolSantos/css-flexbox-origamid",
-    demo: "https://maikolsantos.github.io/css-flexbox-origamid/",
-  },
-  {
     title: "Wildbeast",
     description: "Site desenvolvido no curso Grid Layout da Origamid",
     repository: "https://github.com/MaikolSantos/wildbeast-grid-layout",
     demo: "https://maikolsantos.github.io/wildbeast-grid-layout/",
+  },
+  {
+    title: "FlexBlog",
+    description: "Site desenvolvido no curso Flex Box da Origamid",
+    repository: "https://github.com/MaikolSantos/css-flexbox-origamid",
+    demo: "https://maikolsantos.github.io/css-flexbox-origamid/",
   },
 ];

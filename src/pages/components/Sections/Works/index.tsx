@@ -1,7 +1,6 @@
 import Card from "../../../../components/Card";
 import Text from "../../../../components/Text";
 import Title from "../../../../components/Title";
-import LinkExternal from "../../../../components/LinkExternal";
 
 import { works } from "../../../../data/works";
 
@@ -25,6 +24,7 @@ const Works = () => {
                 description={description}
                 repository={repository}
                 demo={demo}
+                variant="section"
               />
             );
           }

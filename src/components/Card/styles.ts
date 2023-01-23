@@ -1,4 +1,6 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+import { CardStyledProps } from "./types";
 
 export const Container = styled.li`
   border-radius: 0.5rem;
@@ -8,7 +10,26 @@ export const Container = styled.li`
   overflow: hidden;
   transition: 0.3s ease;
   width: 100%;
-  max-width: 18.75rem;
+
+  ${({ variant }: CardStyledProps) => {
+    return (
+      variant === "section" &&
+      css`
+        max-width: 18.75rem;
+
+        div {
+          p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            max-height: 3rem;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+        }
+      `
+    );
+  }}
 
   div {
     display: flex;
@@ -30,12 +51,6 @@ export const Container = styled.li`
 
     p {
       font-size: 1rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      max-height: 3rem;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
     }
   }
 
