@@ -1,6 +1,6 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { FaArrowLeft } from "react-icons/fa";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import Card from "../../components/Card";
 import Footer from "../../components/Footer";
@@ -9,7 +9,6 @@ import Input from "../../components/Input";
 import LinkExternal from "../../components/LinkExternal";
 
 import { WorksContext } from "../../contexts/WorksContext";
-import Contact from "../components/Sections/Contact";
 
 import { Container } from "./styles";
 
@@ -18,6 +17,10 @@ const Works = () => {
     useContext(WorksContext);
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   function handleOnChange(event: React.ChangeEvent<HTMLInputElement>) {
     const value = event.target.value.toLowerCase();

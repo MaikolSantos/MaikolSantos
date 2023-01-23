@@ -33,6 +33,10 @@ export const GlobaStyles = createGlobalStyle`
     --weight-bold: 700;
   }
 
+  html, body, #root, main {
+    height: 100%;
+  }
+
   body {
     background-color: var(--color-black-200);
     color: var(--color-grey-200);

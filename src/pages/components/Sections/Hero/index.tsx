@@ -17,7 +17,7 @@ const Hero = () => {
   });
 
   return (
-    <Container>
+    <Container id="hero">
       <p>Olá, meu nome é</p>
       <h1>Maikol L. Santos</h1>
       <strong>

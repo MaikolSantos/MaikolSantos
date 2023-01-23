@@ -5,7 +5,7 @@ import { ContainerSections } from "../../../../styles/Containers";
 export const Container = styled(ContainerSections)`
   position: relative;
   text-align: center;
-  height: 100vh;
+  height: 100%;
 
   p {
     font-weight: var(--weight-regular);
