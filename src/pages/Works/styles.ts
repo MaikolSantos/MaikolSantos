@@ -7,5 +7,6 @@ export const Container = styled(ContainerSections)`
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    width: 100%;
   }
 `
