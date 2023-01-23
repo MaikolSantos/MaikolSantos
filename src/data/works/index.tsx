@@ -24,7 +24,7 @@ export const works: worksProps[] = [
   },
   {
     title: "Nu Kenzie",
-    description: "Simulador de carteira on-line desenvolvido com rect",
+    description: "Simulador de carteira on-line desenvolvido com react",
     repository: "https://github.com/MaikolSantos/nu-kenzie",
     demo: "https://nu-kenzie-green.vercel.app/",
   },
