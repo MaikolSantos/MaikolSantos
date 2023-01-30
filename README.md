@@ -4,7 +4,7 @@
 
 <h2> 📑 About me </h2>
 
-* <p> 🌱 I’m currently learning: <strong>React, Next.js, TypeScript</strong></p>
+* <p> 🌱 I’m currently learning: <strong>TypeScript, Express, SQL</strong></p>
 * <p> 🎯 My current goal: <strong>Full Stack Developer</strong></p>
 * <p> 📫 How to reach me: <strong>maikol.lourencon@gmail.com</strong></p>
 * <p> 💙 I <strong>love</strong> helping people starting out in the web development world.</p>
