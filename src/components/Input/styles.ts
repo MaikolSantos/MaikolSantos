@@ -7,6 +7,10 @@ export const Container = styled.fieldset`
   gap: 1rem;
   border: none;
 
+  > label {
+    cursor: pointer;
+  }
+
   > input {
     height: 2.25rem;
     padding: 0 1rem;

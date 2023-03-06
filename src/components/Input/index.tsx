@@ -1,16 +1,16 @@
 import { FaSearch } from "react-icons/fa";
 
-import { Container } from "./styles";
+import { InputProps } from "./types";
 
-interface InputProps {
-  onChange?: React.ChangeEventHandler<HTMLInputElement> | undefined;
-}
+import { Container } from "./styles";
 
 const Input = ({ onChange }: InputProps) => {
   return (
     <Container>
-      <FaSearch />
-      <input type="text" onChange={onChange} />
+      <label htmlFor="search">
+        <FaSearch />
+      </label>
+      <input id="search" type="text" onChange={onChange} />
     </Container>
   );
 };
