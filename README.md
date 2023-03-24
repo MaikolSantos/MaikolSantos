@@ -6,7 +6,7 @@
 
 <h2> 📑 About me </h2>
 
-* <p> 🌱 I’m currently learning: <strong>TypeScript, Express, SQL</strong></p>
+* <p> 🌱 I’m currently learning: <strong>Python, Django, SQL</strong></p>
 * <p> 🎯 My current goal: <strong>Full Stack Developer</strong></p>
 * <p> 📫 How to reach me: <strong>maikol.lourencon@gmail.com</strong></p>
 * <p> 💙 I <strong>love</strong> helping people starting out in the web development world.</p>
@@ -21,7 +21,7 @@
    <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
    <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
    <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-   <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg">
+   <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
    <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg">
 </div>
@@ -33,9 +33,9 @@
 <a href="https://www.linkedin.com/in/maikol-lourencon/" target="_blank">
  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
-<a href="https://instagram.com/maikol.sants/" target="_blank">
+<!-- <a href="https://instagram.com/maikol.sants/" target="_blank">
  <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-</a>
+</a> -->
 <!--   <a href="https://www.facebook.com/sants.maikol/" target="_blank">
  <img src="https://img.shields.io/badge/-Facebook-%230077B5?style=for-the-badge&logo=facebook&logoColor=white">
 </a> -->
