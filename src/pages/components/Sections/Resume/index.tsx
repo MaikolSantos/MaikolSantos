@@ -49,7 +49,7 @@ const Resume = () => {
                 <h3>Experiências Profissionais</h3>
                 <ul>
                   <li>
-                    <h4>Monitor Front-end</h4>
+                    <h4>Monitor Front-end e Back-end</h4>
                     <p>
                       [2022 – Atualmente] Responsabilidades: dar suporte aos
                       alunos de turmas anteriores referente aos assuntos de cada
