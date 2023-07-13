@@ -10,8 +10,6 @@ const Hero = () => {
   const [text] = useTypewriter({
     words: [
       "Front-end Developer",
-      "Back-end Developer",
-      "Full Stack Developer",
     ],
     loop: true,
   });

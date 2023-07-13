@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { ContainerDefault } from "../../../../styles/Containers";
 
 export const Container = styled.section`
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   overflow: hidden;
 `
 

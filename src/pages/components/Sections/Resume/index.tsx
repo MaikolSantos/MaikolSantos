@@ -20,7 +20,7 @@ const Resume = () => {
     <Container>
       <ResumeHeader onClick={changeOpen}>
         <div>
-          <h2>Resumo do currículo</h2>
+          <h2>Resumo de experiências</h2>
         </div>
       </ResumeHeader>
 
@@ -29,46 +29,57 @@ const Resume = () => {
           <ResumeContent>
             <section>
               <div>
-                <h3>Formação Acadêmica</h3>
+                <h3>Experiências</h3>
                 <ul>
                   <li>
-                    <h4>Tecnólogo Análise e Desenvolvimento de Sistemas</h4>
-                    <p>Anhanguera - Uniderp | Concluído em 2021</p>
-                  </li>
-                  <li>
-                    <h4>Desenvolvimento Web Full Stack </h4>
-                    <p>Kenzie Academy Brasil | Conclusão em 06/2023</p>
-                  </li>
-                  <li>
-                    <h4>Técnico Administrativo</h4>
-                    <p>ETEC | Concluído em 2013 </p>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3>Experiências Profissionais</h3>
-                <ul>
-                  <li>
-                    <h4>Monitor Front-end e Back-end</h4>
                     <p>
-                      [2022 – Atualmente] Responsabilidades: dar suporte aos
-                      alunos de turmas anteriores referente aos assuntos de cada
-                      módulo; supervisionar o desenvolvimento dos alunos, e
-                      verificar as dificuldades dos mesmos; corrigir as
-                      atividades realizadas pelos alunos durante o módulo;
-                      tecnologias abordadas: HTML, CSS, JAVASCRIPT, TYPESCRIPT,
-                      GIT, GITHUB, REACT, VITE & VERCEL.
+                      Experiência em desenvolvimento Front-End web utilizando
+                      HTML, CSS, SASS, Javascript, Typescript, React, Next.js e
+                      consumo de API's;
                     </p>
                   </li>
                   <li>
-                    <h4>
-                      VExpenses – Programador de Sistemas Jr. I e Estagiário
-                      Front-end
-                    </h4>
                     <p>
-                      [2021 – 2022] Responsável pelas demandas do time de
-                      Marketing. Desenvolvimento web no blog e no site.
+                      Experiência em desenvolvimento Back-End utilizando
+                      Node.js, Express, TypeORM, Python, Django, SQL,
+                      PostgreSQL;
                     </p>
+                  </li>
+                  <li>
+                    <p>
+                      Familiaridade com Git, Github, metodologias ágeis Scrum e
+                      Kanban;
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Atuei em uma fintech como desenvolvedor front-end, onde
+                      desenvolvi habilidades como subordinado, colaborador e
+                      desenvolvedor;
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Atuei em uma fintech como desenvolvedor front-end, onde
+                      desenvolvi habilidades como subordinado, colaborador e
+                      desenvolvedor;
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Participei ativamente de projetos em equipe, contribuindo
+                      para a criação de soluções criativas e inovadoras para
+                      problemas complexos. Em alguns desses projetos, tive a
+                      oportunidade de liderar a equipe, o que me permitiu
+                      comprovar minhas habilidades técnicas e competências com
+                      as tecnologias e metodologias mencionadas;
+                    </p>
+                  </li>
+                  <li>
+                    <p>Inglês básico;</p>
+                  </li>
+                  <li>
+                    <p>Espanhol intermediário.</p>
                   </li>
                 </ul>
               </div>

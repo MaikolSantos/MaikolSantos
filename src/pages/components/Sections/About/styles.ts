@@ -7,10 +7,10 @@ export const Container = styled(ContainerSections)`
     width: 100%;
     max-width: 45rem;
     height: auto;
-    margin: 3rem 0;
+    margin: 5rem 0;
   }
 
   > a {
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 `;

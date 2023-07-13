@@ -24,54 +24,44 @@ export const icons: iconsProps[] = [
     icon: <FaCss3Alt color="#C1CBD3" size={40} />,
     name: "CSS3",
   },
-
   {
     icon: <FaJsSquare color="#C1CBD3" size={40} />,
     name: "Javascript",
   },
-
   {
     icon: <SiTypescript color="#C1CBD3" size={40} />,
     name: "Typescript",
   },
-
   {
     icon: <FaReact color="#C1CBD3" size={40} />,
     name: "React",
   },
-
-  {
-    icon: <FaNodeJs color="#C1CBD3" size={40} />,
-    name: "Node.js",
-  },
-
-  {
-    icon: <FaPython color="#C1CBD3" size={40} />,
-    name: "Python",
-  },
-
   {
     icon: <FaSass color="#C1CBD3" size={40} />,
     name: "Sass",
   },
-
   {
     icon: <FaGitAlt color="#C1CBD3" size={40} />,
     name: "Git",
   },
-
   {
     icon: <FaGithub color="#C1CBD3" size={40} />,
     name: "GitHub",
   },
-
+  {
+    icon: <FaFigma color="#C1CBD3" size={40} />,
+    name: "Figma",
+  },
   {
     icon: <FaDatabase color="#C1CBD3" size={40} />,
     name: "SQL",
   },
-
   {
-    icon: <FaFigma color="#C1CBD3" size={40} />,
-    name: "Figma",
+    icon: <FaNodeJs color="#C1CBD3" size={40} />,
+    name: "Node.js",
+  },
+  {
+    icon: <FaPython color="#C1CBD3" size={40} />,
+    name: "Python",
   },
 ];
