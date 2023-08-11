@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import MenuProvider from "./contexts/MenuContext";
 import WorksProvider from "./contexts/WorksContext";
+import Stars from "./components/Stars";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
@@ -11,6 +12,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
       <MenuProvider>
         <WorksProvider>
           <App />
+          <Stars />
         </WorksProvider>
       </MenuProvider>
     </BrowserRouter>

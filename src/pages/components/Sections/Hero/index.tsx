@@ -5,19 +5,18 @@ import Mouse from "../../../../components/Mouse";
 import { Container } from "./styles";
 import { CursorStyled } from "../../../../styles/CursorStyled";
 import { LinkScrollStyled } from "../../../../styles/LinkScrollStyled";
+import astronaut from "../../../../assets/images/astronaut.png";
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: [
-      "Front-end Developer",
-    ],
+    words: ["Front-end Developer", "Web Designer", "UI & UX Designer"],
     loop: true,
   });
 
   return (
     <Container id="hero">
       <p>Olá, meu nome é</p>
-      <h1>Maikol L. Santos</h1>
+      <h1>Maikol Santos</h1>
       <strong>
         {text}
         <Cursor
@@ -36,6 +35,8 @@ const Hero = () => {
         Sobre
       </LinkScrollStyled>
       <Mouse />
+      
+      <img src={astronaut} alt="Astronaut" />
     </Container>
   );
 };
