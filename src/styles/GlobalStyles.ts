@@ -35,12 +35,16 @@ export const GlobaStyles = createGlobalStyle`
 
   html, body, #root, main {
     height: 100%;
-    overflow-x: hidden;
   }
-
+  
   body {
     background-color: var(--color-black-200);
     color: var(--color-grey-200);
+    overflow-x: hidden;
+  }
+
+  main {
+    position: relative;
   }
 
   ::-webkit-scrollbar {
