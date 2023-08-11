@@ -40,6 +40,7 @@ export const GlobaStyles = createGlobalStyle`
   body {
     background-color: var(--color-black-200);
     color: var(--color-grey-200);
+    overflow-x: hidden;
   }
 
   ::-webkit-scrollbar {
