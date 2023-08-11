@@ -4,9 +4,10 @@ import { ContainerSections } from "../../../../styles/Containers";
 
 export const Container = styled(ContainerSections)`
   position: relative;
+  z-index: 1;
   text-align: center;
   height: 100%;
-  z-index: 1;
+  overflow-x: hidden ;
 
   p {
     font-weight: var(--weight-semibold);
