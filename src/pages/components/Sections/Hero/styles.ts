@@ -6,7 +6,6 @@ export const Container = styled(ContainerSections)`
   position: relative;
   text-align: center;
   height: 100%;
-  width: 100%;
   z-index: 1;
 
   p {
