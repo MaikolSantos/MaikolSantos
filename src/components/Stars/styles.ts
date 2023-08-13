@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const numbers = [
-  2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
+  2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71,
+  73, 79, 83, 89, 97,
 ];
 
 export const Container = styled.svg`
@@ -10,6 +11,13 @@ export const Container = styled.svg`
   left: 0;
   height: 100vh;
   z-index: -1;
+
+  @media (min-width: 750px) {
+    width: 100%;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
   @keyframes star {
     0% {
@@ -22,7 +30,6 @@ export const Container = styled.svg`
     100% {
       opacity: 0;
       transform: translateY(-100px);
-      
     }
   }
 
