@@ -2,7 +2,15 @@ import styled from "styled-components";
 
 import { ContainerSections } from "../../../../styles/Containers";
 
-export const Container = styled(ContainerSections)`
+export const Container = styled.section`
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
   position: relative;
   z-index: 1;
   text-align: center;

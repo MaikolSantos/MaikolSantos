@@ -5,7 +5,7 @@ import { Container } from "./styles";
 const Footer = () => {
   return (
     <Container>
-      <Text text="Alguns direitos reservados - 2023 - Maikol L. Santos" />
+      <Text text="Alguns direitos reservados - 2023 - Maikol Santos" />
     </Container>
   );
 };

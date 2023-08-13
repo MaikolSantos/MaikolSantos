@@ -35,13 +35,13 @@ export const LineAtomFour = styled(LineAtom)`
 `;
 
 export const Shine = styled.path`
-  opacity: 0.5;
-  animation: shine 2s linear infinite alternate;
+  opacity: 0.3;
+  animation: shine 2s ease-in-out infinite alternate;
 
   @keyframes shine {
     from {
       opacity: 1;
-      filter: brightness(1.5);
+      filter: drop-shadow(0rem 0rem 0.5rem #197de5);
     }
   }
 `;

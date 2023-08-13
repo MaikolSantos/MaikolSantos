@@ -13,4 +13,8 @@ export const ContainerSections = styled(ContainerDefault)`
   justify-content: center;
   gap: 2rem;
   padding: 3.75rem 1rem;
+
+  @media (min-width: 600px) {
+    gap: 5rem;
+  }
 `;

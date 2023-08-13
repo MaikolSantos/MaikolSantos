@@ -9,9 +9,13 @@ export const Container = styled(ContainerSections)`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1.5rem 2rem;
     width: 100%;
-    max-width: 40rem;
+    gap: 1.5rem 1rem;
+    
+    @media (min-width: 600px) {
+      gap: 1.5rem 2rem;
+      
+    }
 
     li {
       display: flex;
@@ -30,6 +34,11 @@ export const Container = styled(ContainerSections)`
 
       svg {
         transition: 0.3s ease-in-out;
+        font-size: 2.5rem;
+
+        @media (min-width: 600px) {
+          font-size: 4rem;
+        }
       }
 
       :hover {

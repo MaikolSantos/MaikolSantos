@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Planet = styled.g`
-  animation: planetSetup 3s ease-in-out infinite alternate;
+  animation: planetSetup 2s ease-in-out infinite alternate;
 
   @keyframes planetSetup {
     from {
@@ -22,7 +22,7 @@ export const PlanetPink = styled(Planet)`
 `;
 
 export const Chair = styled.g`
-  animation: chair 4s ease-in-out infinite alternate;
+  animation: chair 2s ease-in-out infinite alternate;
 
   @keyframes chair {
     from {

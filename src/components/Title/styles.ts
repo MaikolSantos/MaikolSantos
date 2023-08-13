@@ -1,18 +1,21 @@
 import styled from "styled-components";
 
 export const Container = styled.h2`
-  color: var(--color-brand-100);
-  font-weight: var(--weight-medium);
-  font-size: 1.5rem;
   width: max-content;
-  text-align: center;
+  align-self: flex-start;
 
+  font-weight: var(--weight-bold);
+  font-size: clamp(1.5rem, 8vw, 4rem);
+  color: var(--color-white);
+  filter: drop-shadow(0rem 0rem 0.5rem #fff);
+  
   ::after {
     content: "";
     display: block;
-    background-color: var(--color-brand-100);
+    background-color: var(--color-white);
+    filter: drop-shadow(0rem 0rem 0.5rem #fff);
     height: 0.0625rem;
-    width: 1.5rem;
+    width: 50%;
     animation: line 1s ease-in-out alternate infinite;
 
     @keyframes line {

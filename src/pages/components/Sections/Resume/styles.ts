@@ -3,10 +3,11 @@ import styled from "styled-components";
 import { ContainerDefault } from "../../../../styles/Containers";
 
 export const Container = styled.section`
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   overflow: hidden;
-`
+  transition: 0.3s ease;
+`;
 
 export const ResumeHeader = styled.header`
   background-color: var(--color-black-300);
@@ -27,7 +28,7 @@ export const ResumeHeader = styled.header`
     cursor: pointer;
 
     h2 {
-      font-weight: var(--weight-medium);
+      font-weight: var(--weight-bold);
     }
   }
 
@@ -56,7 +57,7 @@ export const ResumeHeader = styled.header`
   }
 
   :hover {
-    background-color: var(--color-black-100);
+    background-color: var(--color-brand-50);
 
     ::after,
     ::before {
@@ -72,12 +73,12 @@ export const ResumeHeader = styled.header`
 export const ResumeWrapper = styled.section`
   background-color: var(--color-black-300);
   padding: 2rem 1rem;
-  animation: resume .8s linear forwards;
+  animation: resume 0.8s linear forwards;
 
   @keyframes resume {
     from {
       transform: translateY(-1000px);
-    } 
+    }
     to {
       transform: translateY(0);
     }

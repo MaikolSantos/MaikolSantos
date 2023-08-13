@@ -6,6 +6,7 @@ import { Container } from "./styles";
 import { CursorStyled } from "../../../../styles/CursorStyled";
 import { LinkScrollStyled } from "../../../../styles/LinkScrollStyled";
 import astronaut from "../../../../assets/images/astronaut.png";
+import Stars from "../../../../components/Stars";
 
 const Hero = () => {
   const [text] = useTypewriter({
@@ -34,9 +35,12 @@ const Hero = () => {
       >
         Sobre
       </LinkScrollStyled>
+
       <Mouse />
-      
+
       <img src={astronaut} alt="Astronaut" />
+      
+      <Stars />
     </Container>
   );
 };
