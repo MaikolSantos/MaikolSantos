@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  width: 100%;
-  margin: 0 auto;
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
-  z-index: 1;
-  text-align: center;
+  gap: 1rem;
+  width: 100%;
   height: 100%;
+  margin: 0 auto;
+  text-align: center;
   overflow: hidden ;
 
   p {
