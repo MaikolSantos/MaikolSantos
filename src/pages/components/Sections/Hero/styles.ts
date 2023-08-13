@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import { ContainerSections } from "../../../../styles/Containers";
-
 export const Container = styled.section`
   width: 100%;
   margin: 0 auto;
@@ -9,8 +7,6 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-
   position: relative;
   z-index: 1;
   text-align: center;
@@ -55,12 +51,11 @@ export const Container = styled.section`
     animation: astronaut 10s linear infinite alternate;
     max-width: 150px;
     bottom: 60px;
-    right: 0px;
+    right: -50px;
 
     @media (min-width: 600px) {
       max-width: 250px;
-      bottom: 60px;
-      right: -50px;
+      right: 15%;
     }
   }
 `;

@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import { ContainerSections } from "../../../../styles/Containers";
-
 export const Container = styled.section`
   position: relative;
   display: flex;
@@ -13,6 +11,10 @@ export const Container = styled.section`
 
   svg:nth-child(1) {
     width: 100%;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   svg + svg {
