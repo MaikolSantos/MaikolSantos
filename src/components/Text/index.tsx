@@ -2,8 +2,8 @@ import { TextProps } from "./types";
 
 import { Container } from "./styles";
 
-const Title = ({ text }: TextProps) => {
+const Text = ({ text }: TextProps) => {
   return <Container>{text}</Container>;
 };
 
-export default Title;
+export default Text;
