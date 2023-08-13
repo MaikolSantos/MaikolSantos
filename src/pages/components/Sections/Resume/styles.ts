@@ -3,10 +3,16 @@ import styled from "styled-components";
 import { ContainerDefault } from "../../../../styles/Containers";
 
 export const Container = styled.section`
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   overflow: hidden;
   transition: 0.3s ease;
+  
+  @media (min-width: 600px) {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    
+  }
 `;
 
 export const ResumeHeader = styled.header`

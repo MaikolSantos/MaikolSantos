@@ -11,7 +11,7 @@ export const Container = styled.section`
   z-index: 1;
   text-align: center;
   height: 100%;
-  overflow-x: hidden ;
+  overflow: hidden ;
 
   p {
     font-weight: var(--weight-semibold);
@@ -51,7 +51,7 @@ export const Container = styled.section`
     animation: astronaut 10s linear infinite alternate;
     max-width: 150px;
     bottom: 60px;
-    right: -50px;
+    right: 10%;
 
     @media (min-width: 600px) {
       max-width: 250px;

@@ -6,8 +6,11 @@ export const Container = styled.section`
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding: 5rem 1rem;
-
+  padding: 0 1rem;
+  
+  @media (min-width: 600px) {
+    padding: 5rem 1rem;
+  }
 
   svg:nth-child(1) {
     width: 100%;
