@@ -60,13 +60,6 @@ const Resume = () => {
                   </li>
                   <li>
                     <p>
-                      Atuei em uma fintech como desenvolvedor front-end, onde
-                      desenvolvi habilidades como subordinado, colaborador e
-                      desenvolvedor;
-                    </p>
-                  </li>
-                  <li>
-                    <p>
                       Participei ativamente de projetos em equipe, contribuindo
                       para a criação de soluções criativas e inovadoras para
                       problemas complexos. Em alguns desses projetos, tive a
