@@ -15,8 +15,6 @@ export const Container = styled.li`
     return (
       variant === "section" &&
       css`
-        max-width: 18.75rem;
-
         div {
           p {
             overflow: hidden;

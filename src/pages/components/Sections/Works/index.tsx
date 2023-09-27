@@ -11,12 +11,12 @@ const Works = () => {
   return (
     <Container id="works">
       <Title text="Portfólio" />
-      <Text text="Alguns dos meus últimos trabalhos" />
+      <Text text="Explore uma seleção dos projetos que compõem o meu portfólio:" />
 
       <ul>
         {works.map((item, index) => {
           const { title, description, repository, demo } = item;
-          if (index <= 3) {
+          if (index <= 2) {
             return (
               <Card
                 key={index}

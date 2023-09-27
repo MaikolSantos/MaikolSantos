@@ -2,31 +2,31 @@ import { worksProps } from "./types";
 
 export const works: worksProps[] = [
   {
+    title: "Hamburgueria",
+    description:
+    "Desenvolvimento de uma hamburgueria virtual usando React e TypeScript, que inclui funcionalidades essenciais como autenticação de usuário, registro, gerenciamento de carrinho de compras e integração perfeita com APIs para exibir em tempo real os mercadorias do estabelecimento. Com esta interface, os clientes podem facilmente se autenticar e explorar nosso menu, tudo em um ambiente digital moderno e intuitivo. ",
+    repository: "https://github.com/MaikolSantos/hamburgueria-v2",
+    demo: "https://hamburgueria-v2-rho.vercel.app/",
+  },
+  {
+    title: "Course Center",
+    description:
+    "Plataforma educacional interativa usando React e TypeScript, onde os usuários podem facilmente fazer login, se registrar e gerenciar suas tecnologias aprendidas em cursos. Com esta plataforma, você pode adicionar, remover e atualizar suas habilidades de maneira eficiente, tornando o aprendizado uma jornada personalizada e simplificada",
+    repository: "https://github.com/MaikolSantos/kenzie-hub",
+    demo: "https://kenzie-hub-inky-nine.vercel.app/",
+  },
+  {
+    title: "Carteira Digital",
+    description: "Emocionante simulação de carteira digital, que oferece aos usuários a oportunidade de experimentar a gestão de finanças em um ambiente virtual. Com esta carteira, você pode realizar \"transações\" simuladas, controlar seus gastos e visualizar seu histórico financeiro, tudo isso em uma interface intuitiva e responsiva.",
+    repository: "https://github.com/MaikolSantos/nu-kenzie",
+    demo: "https://nu-kenzie-green.vercel.app/",
+  },
+  {
     title: "Habitum",
     description:
       "Habitum é um projeto com a finalidade de ajudar as pessoas a gerenciar e criar novos hábitos em suas vidas. O projeto foi desenvolvido em grupo, onde minha contribuição, além de desenvolvedor, também foi como Tech Lead.",
     repository: "https://github.com/orgs/Habitum/repositories",
     demo: "https://web-ecru-alpha.vercel.app/",
-  },
-  {
-    title: "Kenzie Burguer V2",
-    description:
-      "Projeto desenvolvido para prática de typescript, react e bibliotecas react",
-    repository: "https://github.com/MaikolSantos/hamburgueria-v2",
-    demo: "https://hamburgueria-v2-rho.vercel.app/",
-  },
-  {
-    title: "Kenzie Hub",
-    description:
-      "Desenvolvido para prática das libs react: react-hook-form, yup e react-resolver",
-    repository: "https://github.com/MaikolSantos/kenzie-hub",
-    demo: "https://kenzie-hub-inky-nine.vercel.app/",
-  },
-  {
-    title: "Nu Kenzie",
-    description: "Simulador de carteira on-line desenvolvido com react",
-    repository: "https://github.com/MaikolSantos/nu-kenzie",
-    demo: "https://nu-kenzie-green.vercel.app/",
   },
   {
     title: "Kenzie Burguer",
