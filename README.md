@@ -4,7 +4,7 @@
 
 <h2> 📑 About me </h2>
 
-* <p> 💻 I’m: <strong>Front-end Developer</strong></p>
+* <p> 💻 I’m: <strong>Front-end Developer</strong></p>, but I know Back-end
 * <p> 💙 I <strong>love</strong> what I do</p>
 
 
